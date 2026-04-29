@@ -1,0 +1,8 @@
+Parameter Personalisasi
+
+N (2 digit terakhir NIM): 2510514015 mod 100 = 15
+a (digit puluhan NIM): floor (N/10) = floor (15/10) = 1
+b (digit satuan NIM): N mod 10 = 15 mod 10 = 5
+K (konstanta skala data): (a+b+1) = 1 + 5 + 1 = 7
+θ₀ (sudut awal bilangan kompleks): (a.30) + (b.5) = (1.30) + (5.5) = 30 + 25 = 55 derajat
+α (learning rate gradient descent): 0.001 . (b + 1) = 0.001 . (5 + 1) = 0.001 . 6 = 0.006
